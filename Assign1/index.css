@@ -1,0 +1,25 @@
+.box{
+    border: 2px solid;
+}
+.Paragraph{
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    width: 600px;
+}
+.colored-text .red {
+      color: red;
+    }
+    .colored-text .blue {
+      color: blue;
+    }
+#bottom-box{
+    margin-top: 80px;
+    text-align: right;
+    width: 500px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    
+}
