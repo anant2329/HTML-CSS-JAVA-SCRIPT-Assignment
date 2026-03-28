@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+}
+
+.box {
+    padding: 15px;
+    width: 700px;
+    border: 5px solid black;
+}
+
+h1 {
+    text-align: left;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.name {
+    text-align: right;
+    font-style: italic;
+    margin-top: 30px;
+    color: #555;
+}
+
+p {
+    padding-left: 80px;
+    font-weight: bold;
+}
+
+.orange-hr {
+    border-top: 2px solid orange;
+    width: 80%;
+    margin-left: 0;
+    padding-left: 80px;
+}
