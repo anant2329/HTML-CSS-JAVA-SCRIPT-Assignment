@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    border: 2px solid #000;
+    padding: 30px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.tabs {
+    display: flex;
+    gap: 20px;
+}
+
+.tab-btn {
+    background-color: #7a0019;
+    color: white;
+    border: 1px solid #000;
+    padding: 8px 25px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.cart-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-shopping-cart {
+    font-size: 2rem;
+    color: #7a0019;
+}
+
+.cart-count {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.description-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.info-box {
+    border: 1px solid #000;
+    padding: 15px;
+    line-height: 1.4;
+    font-size: 0.95rem;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.section-title {
+    color: #7a0019;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+.selection-area {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.coffee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.type-btn {
+    background-color: #808080;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.square {
+    height: fit-content;
+}
+
+.red-text {
+    color: #7a0019;
+}
